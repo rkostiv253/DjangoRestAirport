@@ -68,7 +68,8 @@ class Airplane(models.Model):
 
 
 def route_image_path(instance, filename):
-    filename = f"{slugify(instance.id)}-{uuid.uuid4()}" + pathlib.Path(filename).suffix
+    filename = (f"{slugify(instance.id)}-{uuid.uuid4()}"
+                + pathlib.Path(filename).suffix)
     return pathlib.Path("uploads/routes/", filename)
 
 
