@@ -4,7 +4,6 @@ from django.urls import reverse
 
 from rest_framework.test import APIClient
 from rest_framework import status
-from rest_framework_simplejwt.views import TokenObtainPairView
 
 CREATE_USER_URL = reverse("user:create")
 TOKEN_URL = reverse("user:token_obtain_pair")
