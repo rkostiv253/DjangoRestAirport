@@ -3,7 +3,11 @@ attrs==25.3.0
 black==25.1.0
 click==8.2.1
 Django==5.2.4
+django-cors-headers==4.9.0
+django-stubs==5.2.9
+django-stubs-ext==5.2.9
 djangorestframework==3.16.0
+djangorestframework-stubs==3.16.8
 djangorestframework_simplejwt==5.5.1
 drf-spectacular==0.28.0
 flake8==7.3.0
@@ -17,7 +21,7 @@ pathspec==0.12.1
 pillow==11.3.0
 platformdirs==4.3.8
 psycopg==3.2.9
-psycopg-binary==3.2.9
+psycopg-binary==3.3.3
 pycodestyle==2.14.0
 pyflakes==3.4.0
 PyJWT==2.10.1
@@ -26,4 +30,6 @@ PyYAML==6.0.2
 referencing==0.36.2
 rpds-py==0.26.0
 sqlparse==0.5.3
+types-PyYAML==6.0.12.20250915
+typing_extensions==4.15.0
 uritemplate==4.2.0
